@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.image-container{
+    align-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+}
+.image-container img{
+    width: 100%;
+}
+
+article{
+    padding: 10px;
+    box-shadow:  1px 1px 1px 1px #000000;
+}
+.random{
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+
+}
